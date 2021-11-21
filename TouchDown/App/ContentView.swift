@@ -1,19 +1,16 @@
-//
-//  ContentView.swift
-//  TouchDown
-//
-//  Created by Oleg Kudimov on 11/21/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    // MARK: - PROPERTIES
+    
+    // MARK: - BODY
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        FooterView()
+            .padding(.horizontal)
     }
 }
 
+// MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
