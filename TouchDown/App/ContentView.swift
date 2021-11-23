@@ -29,6 +29,7 @@ struct ContentView: View {
                         } //: GRID
                         .padding(15)
                         
+                        BrandGridView()
                         
                         FooterView()
                             .padding(.horizontal)
